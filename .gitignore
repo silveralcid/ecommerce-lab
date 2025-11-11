@@ -1,0 +1,207 @@
+# ===========================================
+# Python Gitignore
+# ===========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+venv.bak/
+.conda/
+.python-version
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+test-results/
+
+# Translations
+*.mo
+*.pot
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static_root/
+
+# Flask
+instance/
+.webassets-cache
+
+# FastAPI / Starlette
+*.db
+*.sqlite
+*.sqlite3
+
+# Scrapy
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+build/
+target/
+_site/
+*.doctree
+*.pickle
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+.cache/pypoetry/
+.poetry/
+
+# PEP 582 (e.g. used by pdm)
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.envrc
+.env
+.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS / Windows / Linux
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Trash-*/
+*.swp
+*.swo
+
+# Logs
+*.log
+*.out
+*.err
+
+# Type checking / linting
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+ruff_cache/
+flake8.log
+
+# Compiled docs / site builds
+public/
+_site/
+build/
+
+# Coverage / Reports
+coverage/
+reports/
+test-output/
+junit.xml
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Editors / DevTools
+.vscode/
+.idea/
+.spyproject/
+.ropeproject/
+.history/
+.pyre/
+.cache/
+
+# Docker / CI
+docker-compose.override.yml
+.docker/
+*.pid
+*.seed
+*.lock
+logs/
+.tmp/
+
+# Data / Artifacts
+*.csv
+*.dat
+*.db
+*.sqlite
+*.sqlite3
+data/
+datasets/
+*.tar.gz
+*.zip

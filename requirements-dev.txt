@@ -1,0 +1,37 @@
+# =========================
+# Core dependencies
+# =========================
+
+# FastAPI framework for RESTful APIs
+fastapi
+
+# Uvicorn ASGI server (for HTTP & WebSocket endpoints)
+uvicorn[standard]
+
+# AsyncIO utilities for network and concurrency handling
+aiohttp
+websockets
+
+# For lightweight data storage or caching
+aiosqlite
+redis
+
+# Pydantic for validation and data modeling
+pydantic
+
+# Optional: environment configuration
+python-dotenv
+
+# =========================
+# Development & testing
+# =========================
+
+pytest
+pytest-asyncio
+pytest-cov
+
+black
+flake8
+isort
+mypy
+pre-commit
