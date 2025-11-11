@@ -5,6 +5,7 @@ Compatible with pytest and pytest-asyncio.
 
 import pytest
 
+
 # Example synchronous test
 def test_basic_math():
     """Simple sanity test to ensure pytest runs correctly."""
@@ -33,6 +34,7 @@ def test_sample_data_fixture(sample_data):
 @pytest.mark.asyncio
 async def test_async_behavior():
     """Async test example."""
+
     async def fake_task():
         return 42
 

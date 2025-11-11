@@ -190,10 +190,9 @@ pre-commit
 
 | Phase | Deliverable                   | Duration |
 | ----- | ----------------------------- | -------- |
-| 1     | TCP Echo Gateway (standalone) | 2–3 hrs  |
+| 1     | TCP Echo Gateway (standalone) | 1 hr     |
 | 2     | Core module & tests           | 1 hr     |
-| 3     | HTTP door integration         | 1–2 hrs  |
-| 4     | Final polish & README         | 30 min   |
+| 3     | HTTP integration & polish     | 1 hr     |
 
 
 
@@ -203,6 +202,5 @@ pre-commit
 * The **HTTP door** must reuse existing logic from `core.py`.
 * Write code as if this will be merged into a larger system — no hardcoded values.
 * Favor readability and resilience over brevity.
-* You may assume AI tooling is allowed for code generation and debugging, but clarity and structure take priority.
 
 
